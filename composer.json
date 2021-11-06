@@ -1,5 +1,5 @@
 {
-    "name": "prima-ca/custom-nova-resource"
+    "name": "prima-ca/custom-nova-resource",
     "description": "Template for a custom Nova Resource",
     "keywords": [
         "laravel",
@@ -14,13 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cyrus\\CustomNovaResource\\": "src/"
+            "Cyrus\\Nova\\": "src/"
         }
     },
     "extra": {
         "laravel": {
-            "providers": [
-            ]
+            "providers": []
         }
     },
     "config": {

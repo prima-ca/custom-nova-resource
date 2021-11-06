@@ -1,6 +1,6 @@
 <?php
 
-namespace Cyrus\CustomNovaResource;
+namespace Cyrus\Nova;
 
 use Illuminate\Http\Request;
 
